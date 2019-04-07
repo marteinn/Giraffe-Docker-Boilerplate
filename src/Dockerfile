@@ -1,8 +1,7 @@
 FROM fsharp:netcore
 
-MAINTAINER Marteinn
-
-ENV SCAFFOLD_APP_NAME=GiraffeApp
+ENV SCAFFOLD_APP_NAME=GiraffeApp \
+    ASPNETCORE_ENVIRONMENT=Development
 
 WORKDIR /app
 ADD . /app/

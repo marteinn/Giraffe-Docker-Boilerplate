@@ -1,6 +1,6 @@
 # Giraffe-Docker-Boilerplate
 
-This is a docker based Giraffe boilerplate that uses the giraffe-template to give you a fresh project to get started with.
+This is a docker based [Giraffe](https://github.com/giraffe-fsharp/Giraffe) boilerplate that uses the giraffe-template to give you a fresh project to get started with.
 
 
 ## Clean install

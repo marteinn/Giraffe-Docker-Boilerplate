@@ -27,7 +27,7 @@ setup_giraffe() {
 
 case "$CMD" in
     "runserver" )
-        if [ ! -d ./$SCAFFOLD_APP_NAME ]; then
+        if [ ! -f ./build.sh ]; then
             setup_giraffe
         fi
 

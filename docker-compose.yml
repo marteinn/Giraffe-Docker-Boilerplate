@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: marteinn/giraffe-boilerplate_web
+    build: ./src
+    volumes:
+      - "./src:/app"
+    ports:
+      - "5000:5000"
+    env_file: ./docker/config/web.env

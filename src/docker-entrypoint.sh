@@ -32,7 +32,8 @@ case "$CMD" in
         fi
 
         echo "Run server"
-        ASPNETCORE_URLS="http://0.0.0.0:5000" dotnet run --project src/$SCAFFOLD_APP_NAME
+        cd src/$SCAFFOLD_APP_NAME
+        ASPNETCORE_URLS="http://+:5000" dotnet watch run
         ;;
     * )
         # Run custom command. Thanks to this line we can still use
